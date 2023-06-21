@@ -1,11 +1,7 @@
 # Python
 # Password Enter Limitation Code
 
-__welcome__ = """
-x----------------------------x
-| Password Limitation Python |
-x____________________________x
-"""
+__welcome__ = "| Password Limitation Python |"
 
 print(__welcome__)
 my_password = "AnuragNagar"
@@ -17,9 +13,9 @@ while True:
         break
     if password == my_password:
         print("Congratulation, You Have Successfully Logged In !")
-        print(f"Password : {password}")
+        print(f"Your Password is : {password}")
         break
     else:
         attempts -= 1
     print(f"| X | '{password}' is not correct Password.")
-    print("Remaining Attempt is", attempts, "\n")
+    print("~ Remaining Attempt is", attempts, "\n")
